@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+}
+
+header {
+    padding: 20px;
+    background-color: rgb(248, 38, 91);
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.972);
+    overflow: hidden;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+    float: left;
+    color: rgb(255, 255, 255);
+}
+
+main {
+    background-color: rgb(53, 241, 182);
+    text-align: center;
+}
+
+h1 {
+    padding: 10px;
+}
+
+section:nth-child(even) {
+    background-color: rgb(255, 246, 119);
+}
+
+section {
+    min-height: 50vh;
+}
+
+video {
+    padding: 20px;
+}
+
+img {
+    padding: 20px;
+}
+.profile_img {
+    border-radius: 50%;
+}
+
+.profil_name{
+    font-size: 2em;
+    font-weight: 900;
+    letter-spacing: 4px;
+    word-spacing: 10px;
+    text-transform: uppercase;
+    margin: 20px 0px 30px 0px;
+}
+
+.sm-handle a{
+    background-color: rgb(125 125 125 / 25%);
+    padding: 1px 15px;
+    border-radius: 20px;
+    margin: 5px 10px;
+    text-decoration: none;
+}
+
+
+footer {
+    background-color: rgba(0, 0, 0, 0.918);
+    overflow: hidden;
+}
+
+footer a {
+    text-decoration: none;
+    padding: 15px;
+    text-align: center;
+    float: left;
+    color: rgb(255, 255, 255);
+}
+.menu-btn:hover{
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+.icon-btn:hover{
+    background-color: rgb(243, 126, 188);
+    color: rgb(0, 0, 0);
+}
+section h1 span{
+    background: linear-gradient(to right,#e151b5,#c7da1f);
+    padding: 10px 55px;
+    border-radius: 20px;
+    color: rgb(0, 0, 0);
+}
